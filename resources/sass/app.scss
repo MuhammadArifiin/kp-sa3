@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.btn-logout:hover +.modal-logout{
+    
+        display: flex;
+    
+}
+
+.modal-logout{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%) translateX(-50%);    
+    border-radius: 5px;
+    border: 1px rgba(0, 0, 0, 0.269) solid;
+
+    
+}
+
+.modal-logout:hover{
+    display: flex;
+}
